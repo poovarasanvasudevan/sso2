@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - blog@localhost" uuid="cbc44fcc-e7be-4c05-a7b1-5abd396a3401">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>blog.*</schema-pattern>
+      <default-schemas>blog.*</default-schemas>
+    </data-source>
+    <data-source name="MySQL - gas@localhost" uuid="5eef29f2-35b4-4824-a8a6-19ebed9090e2">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>gas.*</schema-pattern>
+      <default-schemas>gas.*</default-schemas>
+    </data-source>
+    <data-source name="PostgreSQL - blog@localhost" uuid="ec55acbd-85da-44d7-964b-7218d61319b8">
+      <secret-storage>master_key</secret-storage>
+      <user-name>postgres</user-name>
+      <schema-pattern>blog.pg_catalog blog.public</schema-pattern>
+      <default-schemas>blog.pg_catalog blog.public</default-schemas>
+    </data-source>
+  </component>
+</project>
