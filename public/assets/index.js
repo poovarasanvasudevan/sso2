@@ -60,6 +60,7 @@ app.controller('definition', function ($scope, $http) {
 
 
     $scope.definition = {}
+    $scope.definition.showprogress = false;
     $http.get('/alllocation')
         .success(function (data) {
             $scope.definition.alllocaction = data;
@@ -73,6 +74,10 @@ app.controller('definition', function ($scope, $http) {
         }).error(function (data) {
 
         })
+
+    $scope.search = function() {
+        $scope.definition.showprogress = true;
+    }
 });
 
 $(document).ready(function () {

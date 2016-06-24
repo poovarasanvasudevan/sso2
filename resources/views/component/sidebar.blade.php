@@ -8,6 +8,10 @@
             <a href="/definition"><i class="mdi mdi-database mdi-list-size p mr" lx-size="s"></i></a>
         </li>
 
+        <li ripple1 lx-tooltip="Artefact Search" lx-tooltip-position="right">
+            <a href=""><i class="mdi mdi-account-search mdi-list-size p mr" lx-size="s"></i></a>
+        </li>
+
         <li ripple1 lx-tooltip="Reports : View Reports" lx-tooltip-position="right">
             <i class="mdi mdi-paper-cut-vertical mdi-list-size p mr" lx-size="s"></i>
         </li>
@@ -22,6 +26,11 @@
 
         <li ripple1 lx-tooltip="Manage Users" lx-tooltip-position="right">
             <i class="mdi mdi-account mdi-list-size p mr" lx-size="s"></i>
+        </li>
+
+
+        <li ripple1 lx-tooltip="Notification" lx-tooltip-position="right">
+            <i class="mdi mdi-bell mdi-list-size p mr" lx-size="s"></i>
         </li>
 
         <li ripple1 lx-tooltip="Manage Account Settings" lx-tooltip-position="right">

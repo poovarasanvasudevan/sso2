@@ -45,12 +45,10 @@
                 </div>
 
                 <div flex-item="2" class="ml+++ mt+">
-
                     <center>
-                        <lx-button lx-color="{{env('THEME')}}">Search</lx-button>
+                        <lx-button lx-color="{{env('THEME')}}" ng-click="search()">Search</lx-button>
                         <lx-button lx-color="red">Reset</lx-button>
                     </center>
-
                 </div>
             </div>
             <div class="m" flex-container="row" flex-column="12">
@@ -61,6 +59,8 @@
                 <div flex-item="10">
 
                 </div>
+                <lx-progress lx-color="{{env('THEME')}}" lx-type="circular" lx-diameter="150" ng-if="definition.showprogress" class="center"></lx-progress>
+
             </div>
         </div>
     </div>
